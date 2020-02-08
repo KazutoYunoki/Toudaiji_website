@@ -1,0 +1,311 @@
+html{
+   background-image: url("../img/haikei2.jpg");
+   background-position: left;
+   background-repeat: repeat-y;
+   background-repeat: round;
+}
+header{
+   background-image: url("../img/daibutu.jpg");
+   background-position-y: 15%;
+   background-position-x: 15%;
+   border: double 10px #ffffff;
+   padding-left: 10px;
+   padding-right: 10px;
+   padding-bottom: 60px;
+   margin-left: 10px;
+   margin-right: 10px;
+   margin-bottom: 10px;
+}
+#temple_name{
+   color: #FFFFFF;
+   font-size: 80px;
+   margin-left: 20px;
+}
+.list{
+   color: #FFFFFF;
+   font-size:25px;
+}
+.top-nav{
+   padding-left: 10px;
+   padding-right: 10px;
+   padding-bottom: 10px;
+   margin-left: 10px;
+   margin-right: 10px;
+   margin-bottom: 10px;
+}
+.index{
+   float: left;
+}
+
+.sub1{
+   float: left;
+   margin-left: 300px ;
+
+}
+.sub2{
+   float: right;
+}
+.agyo
+{
+   float:right;
+   text-align: center;
+   height: 200px;
+   font-size: 11px;
+}
+.unkei
+{
+   float: right;
+   text-align: center;
+   height: 200px;
+   margin-right: 20px;
+   margin-left:20px;
+   font-size: 11px;
+}
+.list a{
+   color: #FFFFFF
+}
+#container{
+   width: 1000px;
+   margin-left: auto;
+   margin-right: auto;
+   text-align: left;
+}
+body{
+   margin: 0 auto;
+   line-height: 37px;
+   font-family: "Yu Gothic";
+   font-weight: 600;
+}
+.left-sidebar{
+   background-color:#E6E6FA;
+   float:left;
+   width: 130px;
+   height: 100%;
+   padding-right: 10px;
+   padding-bottom: 10px;
+   padding-top:10px;
+   margin-top: 10px;
+   margin-left: 10px;
+   margin-right: 10px;
+   margin-bottom: 10px;
+   border-radius:10px;
+   border-left: double 7px #0000ff;
+}
+.left-sidebar p{
+   padding-left: 13px;
+   font-size: 20px;
+   text-decoration:underline;
+}
+.left-sidebar li{
+   list-style-image: url("../img/nikukyuu.png");
+}
+article{
+   background-color: #E6E6FA;
+   float:left;
+   width: 530px;
+   padding-left: 20px;
+   padding-right: 20px;
+   padding-bottom: 10px;
+   padding-top:10px;
+   margin-top: 10px;
+   margin-left: 10px;
+   margin-right: 10px;
+   margin-bottom: 10px;
+   border-radius:10px;
+}
+article p{
+   text-indent: 1em;
+}
+h1
+{
+   background: #E6E6F0;
+   border-left: solid 3px #446689;
+   border-bottom: solid 3px #d7d7d7;
+   padding-top: 10px;
+   padding-left: 10px;
+   padding-bottom: 10px;
+   font-size: 35px;
+
+}
+h2{
+   position:relative;
+   padding:0 0 0.5em 0.7em;
+   border-bottom: 2px solid ;
+}
+h2::after{
+   position:absolute;
+   top: 0.2em;
+   left:0;
+   content:"";
+   width: 5px;
+   height:1em;
+   background-color: #7db4e6;
+}
+h3
+{
+   text-decoration: underline;
+}
+.info-table{
+   background-color: #E6E6FA;
+   float:right;
+   width: 200px;
+   height: 100%;
+   padding-left: 10px;
+   padding-right: 10px;
+   margin-left: 10px;
+   margin-right: 10px;
+   margin-top: 10px;
+   padding-bottom: 10px;
+   padding-top:10px;
+   border-radius:10px;
+}
+.table_img{
+   text-align: center;
+}
+table, td,th{
+   border: 2px #6495ED solid;
+}
+.clr{
+   clear:both;
+}
+fotter{
+   background-color: #4F3FD4;
+}
+.sub
+{
+   float left;
+   width: 770px;
+}
+.rusya
+{
+   float:right;
+   text-align: center;
+   margin-left: 30px;
+   margin-right: 30px;
+   border: double 10px #808080;
+   border-width: 5px;
+   border-style: ridge;
+}
+.rusya p
+{
+   font-size:12px;
+}
+.nandaimon
+{
+   float: right;
+   text-align: center;
+   margin-left: 30px;
+   margin-right: 30px;
+   margin-bottom: 30px;
+   border: double 10px #808080;
+   border-width: 5px;
+   border-style: ridge;
+}
+.nandaimon p
+{
+   font-size: 13px;
+}
+.nakamon
+{
+   float: right;
+   text-align: center;
+   margin-left: 30px;
+   margin-right: 30px;
+   margin-bottom: 30px;
+   border: double 10px #808080;
+   border-width: 5px;
+   border-style: ridge;
+}
+.nakamon  p
+{
+   font-size: 13px;
+}
+.daibutuengi
+{
+   float: right;
+   text-align: center;
+   margin-left: 30px;
+   margin-right: 30px;
+   border: double 10px #808080;
+   border-width: 5px;
+   margin-bottom: 30px;
+   border-style: ridge;
+}
+.daibutuengi p
+{
+   font-size: 13px;
+}
+.magimi
+{
+   float:right;
+   text-align: center;
+   margin-left: 30px;
+   margin-right:30px;
+   border: double 10px #808080;
+   border-width: 5px;
+   border-style: ridge;
+}
+.magimi p
+{
+   font-size: 13px;
+}
+.syakazou
+{
+   float:right;
+   text-align: center;
+   margin-left: 30px;
+   margin-right:30px;
+   border: double 10px #808080;
+   border-width: 5px;
+   border-style: ridge;
+}
+.syakazou p
+{
+   font-size: 13px;
+}
+.syobosatu
+{
+   float:right;
+   text-align: center;
+   margin-left: 30px;
+   margin-right:30px;
+   border: double 10px #808080;
+   border-width: 5px;
+   border-style: ridge;
+}
+.syobosatu p
+{
+   font-size: 13px;
+}
+.nandaimonkentiku
+{
+   text-align: center;
+   margin-left: 70px;
+   margin-right:70px;
+   margin-bottom: 40px;
+   padding-top: 30px;
+   border: double 10px #808080;
+   border-width: 5px;
+   border-style: ridge;
+}
+.mokuzoukongou
+{
+   text-align: center;
+   margin-left: 70px;
+   margin-right:70px;
+   padding-top: 30px;
+   border: double 10px #808080;
+   border-width: 5px;
+   border-style: ridge;
+}
+.fotter
+{
+   font-family: "Yu Gothic";
+   font-weight: 600;
+}
+.list_table
+{
+   border: double 10px #808080;
+   border-width: 5px;
+   border-style: ridge;
+}
